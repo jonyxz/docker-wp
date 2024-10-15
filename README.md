@@ -90,11 +90,11 @@ volumes:
 
    #### a. Create info.php
 
-   Create a file named info.php in the src directory with the following content:
+   Create a file named `info.php` in the `src` directory with the following content:
 
    ```php
-      <?php
-      phpinfo();
+   <?php
+   phpinfo();
    ```
 
    #### b. Access info.php
@@ -102,7 +102,7 @@ volumes:
    Open your web browser and navigate to the following URL:
 
    ```bash
-      http://localhost:8080/info.php
+   http://localhost:8080/info.php
    ```
 
    This page will display the current PHP configuration. Verify that the mysqli and redis extensions are listed among the installed extensions.
@@ -116,7 +116,7 @@ volumes:
 
    #### b. Complete WordPress Installation
 
-   Now, you can complete the WordPress installation by navigating to http://localhost:8080 in your web browser. Follow the on-screen instructions to set up WordPress.
+   Now, you can complete the WordPress installation by navigating to `http://localhost:8080` in your web browser. Follow the on-screen instructions to set up WordPress.
    After WordPress is running smoothly, go to the administrator page at:
 
    ```bash
@@ -141,7 +141,7 @@ volumes:
 
    #### b. Configure Redis in wp-config.php
 
-   Add the following configuration at the top of your wp-config.php file:
+   Add the following configuration at the top of your `wp-config.php` file:
 
    ```php
    define('FS_METHOD', 'direct');
