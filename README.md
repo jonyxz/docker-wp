@@ -16,7 +16,7 @@ This repository contains a setup to run WordPress with a MySQL database and Redi
   sudo systemctl enable docker --now
   ```
 
-##Getting Started
+## Getting Started
 
   ### 1. Dockerfile
 
@@ -33,7 +33,7 @@ This repository contains a setup to run WordPress with a MySQL database and Redi
     EXPOSE 80
     CMD ["apache2-foreground"]
     ```
-  ###2. docker-compose.yml
+  ### 2. docker-compose.yml
 
   Create a file named `docker-compose.yml` and fill it with the following content:
   
